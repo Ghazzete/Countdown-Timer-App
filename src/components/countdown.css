@@ -1,0 +1,57 @@
+/* countdown.css */
+.countdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height */
+    background-color: #f0f4f8; /* Light background */
+}
+
+.timer-box {
+    background-color: #ffffff; /* White background for the timer box */
+    border-radius: 16px; /* Rounded corners */
+    padding: 40px; /* Inner spacing */
+    width: 90%; /* Full width with max */
+    max-width: 400px; /* Max width */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    transition: transform 0.2s; /* Transition effect */
+}
+
+.timer-box:hover {
+    transform: scale(1.02); /* Slight scale effect on hover */
+}
+
+.timer-title {
+    font-size: 24px; /* Larger title */
+    font-weight: bold;
+    color: #333; /* Dark text */
+    margin-bottom: 20px; /* Space below title */
+}
+
+.timer-display {
+    font-size: 64px; /* Big font for countdown */
+    font-weight: bold;
+    color: #ff5722; /* Orange color for countdown */
+    margin: 20px 0; /* Space above and below */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Space between buttons */
+}
+
+button {
+    background-color: #6200ea; /* Purple button */
+    color: #fff; /* White text */
+    padding: 10px 20px; /* Inner padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Transition for button */
+}
+
+button:hover {
+    background-color: #3700b3; /* Darker purple on hover */
+}
